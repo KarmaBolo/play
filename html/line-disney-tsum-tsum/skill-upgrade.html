@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karma">
+    <meta name="description" content="Skill Upgrade">
+    <meta name="keywords" content="LINE: Disney Tsum Tsum, LINE, Disney Tsum Tsum, Tsum Tsum, Skill Upgrade, Skill, Upgrade">
+
+    <!-- Scripts -->
+    <script src="../../scripts/cookies.js" async></script>
+    <script src="../../scripts/menu-line-disney-tsum-tsum.js" async></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../../styles/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon">
+
+    <!-- Title -->
+    <title>Skill Upgrade</title>
+
+</head>
+<body>
+
+    <div id="cookies">
+        <p>Este site utiliza cookies, ao clicar em aceito você concorda com os Termos de Uso e a Política de Privacidade.</p>
+        <button id="button_cookies" type="button">Aceito</button>
+    </div>
+
+    <header id="header">
+        <button id="button_menu" type="button" aria-label="button menu">
+            <svg viewBox="0 0 100 100">
+                <rect y="0" width="100" height="20"/>
+                <rect y="40" width="100" height="20"/>
+                <rect y="80" width="100" height="20"/>
+            </svg>
+        </button>
+        <nav id="navigation_menu">
+            <ul>
+                <!-- Home -->
+                <li>
+                    <a class="link_1" href="home.html">
+                        <div class="seta"></div>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <!-- Game -->
+                <li>
+                    <a id="game" class="link_1" href="#">
+                        <svg id="game_seta" class="seta" viewBox="0 0 62.39 100">
+                            <polygon points="12.39 100 0 87.61 37.61 50 0 12.39 12.39 0 62.39 50 12.39 100"/>
+                        </svg>
+                        <span>Game</span>
+                    </a>
+                    <ul id="game_ulist" class="ulist_1">
+                        <!-- Weekly Ranking -->
+                        <li>
+                            <a class="link_2" href="weekly-ranking.html">
+                                <div class="seta"></div>
+                                <span>Weekly Rankiing</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Card -->
+                <li>
+                    <a id="card" class="link_1" href="#">
+                        <svg id="card_seta" class="seta" viewBox="0 0 62.39 100">
+                            <polygon points="12.39 100 0 87.61 37.61 50 0 12.39 12.39 0 62.39 50 12.39 100"/>
+                        </svg>
+                        <span>Card</span>
+                    </a>
+                    <ul id="card_ulist" class="ulist_1">
+                        <!-- Coloring Missions -->
+                        <li>
+                            <a id="coloring_missions" class="link_2" href="#">
+                                <svg id="coloring_missions_seta" class="seta" viewBox="0 0 62.39 100">
+                                    <polygon points="12.39 100 0 87.61 37.61 50 0 12.39 12.39 0 62.39 50 12.39 100"/>
+                                </svg>
+                                <span>Coloring Missions</span>
+                            </a>
+                            <ul id="coloring_missions_ulist" class="ulist_1">
+                                <li>
+                                    <a class="link_3" href="coloring-missions/coloring-missions-1.html">
+                                        <div class="seta"></div>
+                                        <span>Coloring Missions 1</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Mission Bingo -->
+                        <li>
+                            <a id="mission_bingo" class="link_2" href="#">
+                                <svg id="mission_bingo_seta" class="seta" viewBox="0 0 62.39 100">
+                                    <polygon points="12.39 100 0 87.61 37.61 50 0 12.39 12.39 0 62.39 50 12.39 100"/>
+                                </svg>
+                                <span>Mission Bingo</span>
+                            </a>
+                            <ul id="mission_bingo_ulist" class="ulist_1">
+                                <li>
+                                    <a class="link_3" href="mission-bingo/mission-bingo-1.html">
+                                        <div class="seta"></div>
+                                        <span>Mission Bingo 1</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Tsum Tsum -->
+                <li>
+                    <a id="tsum_tsum" class="link_1" href="#">
+                        <svg id="tsum_tsum_seta" class="seta" viewBox="0 0 62.39 100">
+                            <polygon points="12.39 100 0 87.61 37.61 50 0 12.39 12.39 0 62.39 50 12.39 100"/>
+                        </svg>
+                        <span>Tsum Tsum</span>
+                    </a>
+                    <ul id="tsum_tsum_ulist" class="ulist_1">
+                        <!-- Raise Level Cap -->
+                        <li>
+                            <a class="link_2" href="raise-level-cap.html">
+                                <div class="seta"></div>
+                                <span>Raise Level Cap</span>
+                            </a>
+                        </li>
+                        <!-- Score -->
+                        <li>
+                            <a class="link_2" href="score.html">
+                                <div class="seta"></div>
+                                <span>Score</span>
+                            </a>
+                        </li>
+                        <!-- Skill Upgrade -->
+                        <li>
+                            <a class="link_2" href="skill-upgrade.html">
+                                <div class="seta"></div>
+                                <span>Skill Upgrade</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Store -->
+                <li>
+                    <a id="store" class="link_1" href="#">
+                        <svg id="store_seta" class="seta" viewBox="0 0 62.39 100">
+                            <polygon points="12.39 100 0 87.61 37.61 50 0 12.39 12.39 0 62.39 50 12.39 100"/>
+                        </svg>
+                        <span>Store</span>
+                    </a>
+                    <ul id="store_ulist" class="ulist_1">
+                        <!-- Happiness Box -->
+                        <li>
+                            <a class="link_2" href="happiness-box.html">
+                                <div class="seta"></div>
+                                <span>Happiness Box</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <header id="main_banner">
+            <h1 class="title_1">Skill Upgrade</h1>
+        </header>
+        <div id="main_content">
+            <div id="main_left"></div>
+            <div id="main_center">
+                <!-- C -->
+                <section class="section_1">
+                    <h2 class="title_2">C</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Chip -->
+                                    <tr>
+                                        <td><a class="link_1" href="c/chip.html">Chip</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <!-- Christopher Robin -->
+                                    <tr>
+                                        <td><a class="link_1" href="c/christopher-robin.html">Christopher Robin</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- D -->
+                <section class="section_1">
+                    <h2 class="title_2">D</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Daisy -->
+                                    <tr>
+                                        <td><a class="link_1" href="d/daisy.html">Daisy</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <!-- Dale-->
+                                    <tr>
+                                        <td><a class="link_1" href="d/dale.html">Dale</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr> 
+                                    <!-- Donald-->
+                                    <tr>
+                                        <td><a class="link_1" href="d/donald.html">Donald</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- E -->
+                <section class="section_1">
+                    <h2 class="title_2">E</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Eeyore -->
+                                    <tr>
+                                        <td><a class="link_1" href="e/eeyore.html">Eeyore</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- G -->
+                <section class="section_1">
+                    <h2 class="title_2">G</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Goofy -->
+                                    <tr>
+                                        <td><a class="link_1" href="g/goofy.html">Goofy</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- M -->
+                <section class="section_1">
+                    <h2 class="title_2">M</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Mickey -->
+                                    <tr>
+                                        <td><a class="link_1" href="m/mickey.html">Mickey</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <!-- Minnie -->
+                                    <tr>
+                                        <td><a class="link_1" href="m/minnie.html">Minnie</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- P -->
+                <section class="section_1">
+                    <h2 class="title_2">P</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Piglet -->
+                                    <tr>
+                                        <td><a class="link_1" href="p/piglet.html">Piglet</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <!-- Pluto -->
+                                    <tr>
+                                        <td><a class="link_1" href="p/pluto.html">Pluto</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <!-- Pooh -->
+                                    <tr>
+                                        <td><a class="link_1" href="p/pooh.html">Pooh</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- R -->
+                <section class="section_1">
+                    <h2 class="title_2">R</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Roo -->
+                                    <tr>
+                                        <td><a class="link_1" href="r/roo.html">Roo</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- T -->
+                <section class="section_1">
+                    <h2 class="title_2">T</h2>
+                    <div class="container_table_1">
+                        <div class="overflow">
+                            <table class="table_1">
+                                <colgroup>
+                                    <col class="column_3">
+                                    <col class="column_2" span="7">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tsum</th>
+                                        <th scope="col">Level 1</th>
+                                        <th scope="col">Level 2</th>
+                                        <th scope="col">Level 3</th>
+                                        <th scope="col">Level 4</th>
+                                        <th scope="col">Level 5</th>
+                                        <th scope="col">Level 6</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Tigger -->
+                                    <tr>
+                                        <td><a class="link_1" href="t/tigger.html">Tigger</a></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="main_right"></div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <nav class="navigation_1">
+            <a class="link_1" href="../terms-of-use.html">Termos</a>
+            <a class="link_1" href="../privacy-policy.html">Privacidade</a>
+        </nav>
+        <p class="paragraph_1">Todo o conteúdo, títulos de jogos, nomes comerciais e/ou designações comerciais, marcas comerciais, arte e imagens associadas são marcas registradas e/ou material sob direitos autorais dos seus respectivos proprietários. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
