@@ -76,6 +76,7 @@
     }
 
     h2 {
+        border-radius: 1000px;
         padding: 1.5rem;
         background-color: var(--color-theme-1);
         font-size: 2rem;
@@ -254,10 +255,10 @@ html, body {
         }
 
         .link_1 {
-            color: black;
+            color: var(--color-theme-1);
     
             &:hover {
-                color: var(--color-theme-1);
+                text-decoration: underline;
             }
         }
     }
@@ -278,6 +279,7 @@ html, body {
 
         .link_1, .paragraph_1 {
             color: var(--color-theme-2);
+            text-align: center;
         }
     }
 }
