@@ -64,36 +64,21 @@
         }
     }
 
-    p, a {
-        font-size: var(--font-size-base);
-        text-decoration: none;
-    }
-
     h1, h2 {
         color: var(--color-theme-2);
         font-size: 2.5rem;
         text-align: center;
     }
 
-    h2 {
-        border-radius: 1000px;
-        padding: 1.5rem;
-        background-color: var(--color-theme-1);
-        font-size: 2rem;
+    p, a, span {
+        font-size: var(--font-size-base);
+        text-decoration: none;
     }
 
     .title_0 {
-        padding: 0;
-        background-color: transparent;
         color: black;
         font-size: var(--font-size-base);
         text-align: left;
-    }
-
-    section {
-        display: flex;
-        flex-flow: column;
-        gap: 5rem;
     }
     
     .container_table_1, .container_image_1 {
@@ -115,16 +100,6 @@
     
     .overflow {
         overflow: auto;
-    }
-
-    .image_1 {
-        width: 150px;
-        height: auto;
-    }
-
-    .image_2 {
-        width: 250px;
-        height: auto;
     }
 }
 
@@ -217,6 +192,10 @@ html, body {
                 width: 50px;
                 height: 50px;
             }
+
+            span {
+                font-size: 2rem;
+            }
         }
     }
     
@@ -254,12 +233,47 @@ html, body {
             overflow-x: auto;
         }
 
+        section {
+            display: flex;
+            flex-flow: column;
+            gap: 5rem;
+        }
+
+        .card_game {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            gap: 1rem;
+            border: 1px solid var(--color-theme-1);
+            border-radius: 1rem;
+            box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            width: 150px;
+        }
+
+        .title_2 {
+            border-radius: 1000px;
+            padding: 1.5rem;
+            background-color: var(--color-theme-1);
+            font-size: 2rem;
+        }
+
         .link_1 {
             color: var(--color-theme-1);
     
             &:hover {
                 text-decoration: underline;
             }
+        }
+
+        .image_1 {
+            width: 100%;
+            height: auto;
+        }
+    
+        .image_2 {
+            width: 250px;
+            height: auto;
         }
     }
     
@@ -285,24 +299,8 @@ html, body {
 }
 
 @media (min-width: 1900px) {
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
-
-    section {
-        gap: 10rem;
-    }
-
     .container_image_1 {
         gap: 2rem;
-    }
-
-    .image_1 {
-        width: 300px;
     }
 
     .image_2 {
@@ -313,6 +311,22 @@ html, body {
         #main_center {
             padding: 10rem 0;
             gap: 10rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+    
+        h2 {
+            font-size: 3rem;
+        }
+    
+        section {
+            gap: 10rem;
+        }
+
+        .card_game {
+            width: 300px;
         }
     }
 }
