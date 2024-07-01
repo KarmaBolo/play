@@ -39,7 +39,7 @@ game.addEventListener("click", () => {
     }
 });
 
-/* Game */
+/* Card */
 card.addEventListener("click", () => {
     if (card_seta.style.transform == "rotate(90deg)") {
         card_seta.style.transform = "rotate(0deg)"
@@ -53,40 +53,6 @@ card.addEventListener("click", () => {
     } 
     else {
         card_ulist.style.display = "block"
-    }
-});
-
-/* Coloring Missions */
-coloring_missions.addEventListener("click", () => {
-    if (coloring_missions_seta.style.transform == "rotate(90deg)") {
-        coloring_missions_seta.style.transform = "rotate(0deg)"
-    } 
-    else {
-        coloring_missions_seta.style.transform = "rotate(90deg)"
-    }
-
-    if (coloring_missions_ulist.style.display == "block") {
-        coloring_missions_ulist.style.display = "none"
-    } 
-    else {
-        coloring_missions_ulist.style.display = "block"
-    }
-});
-
-/* Mission Bingo */
-mission_bingo.addEventListener("click", () => {
-    if (mission_bingo_seta.style.transform == "rotate(90deg)") {
-        mission_bingo_seta.style.transform = "rotate(0deg)"
-    } 
-    else {
-        mission_bingo_seta.style.transform = "rotate(90deg)"
-    }
-
-    if (mission_bingo_ulist.style.display == "block") {
-        mission_bingo_ulist.style.display = "none"
-    } 
-    else {
-        mission_bingo_ulist.style.display = "block"
     }
 });
 

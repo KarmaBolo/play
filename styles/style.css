@@ -233,7 +233,7 @@ html, body {
             overflow-x: auto;
         }
 
-        section {
+        .section_1 {
             display: flex;
             flex-flow: column;
             gap: 5rem;
@@ -303,30 +303,30 @@ html, body {
         gap: 2rem;
     }
 
-    .image_2 {
-        width: 400px;
-    }
-
     #main {
         #main_center {
             padding: 10rem 0;
             gap: 10rem;
         }
 
-        h1 {
-            font-size: 4rem;
-        }
-    
-        h2 {
-            font-size: 3rem;
-        }
-    
-        section {
+        .section_1 {
             gap: 10rem;
         }
 
         .card_game {
             width: 300px;
+        }
+
+        .title_1 {
+            font-size: 4rem;
+        }
+
+        .title_2 {
+            font-size: 3rem;
+        }
+
+        .image_2 {
+            width: 350px;
         }
     }
 }
